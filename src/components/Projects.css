@@ -1,0 +1,50 @@
+.projects {
+    padding: 2em;
+    background-color: #ffffff;
+    margin: 1em auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  
+  .project {
+    background-color: #f9f9f9;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #444;
+  }
+  
+  .project p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 0.5em;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
