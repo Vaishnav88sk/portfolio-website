@@ -4,18 +4,18 @@ import './Projects.css';
 function Projects() {
   const projectList = [
     {
-      title: 'TravelThreads-WanderLust MegaProject - DevOps',
-      description: 'MERN travel blog app on AWS EKS with 10+ DevOps technologies. Built and deployed a scalable travel blog app using Docker & Kubernetes. Utilized AWS EKS for dynamic scaling& load balancing with real-time monitoring with Prometheus & Grafana. Automated deployments with Jenkins (CI) and ArgoCD (CD) for GitOps-driven workflow on AWS and Integrated OWASP, SonarQube, and Trivy for code quality, vulnerability scanning, and container security.',
+      title: 'TravelThreads -WanderLust MegaProject - DevOps',
+      description: 'MERN travel blog app on AWS EKS with 10+ DevOps technologies. Technology Used: Terraform, Docker, Jenkins, SonarQube, OWASP, Trivy, ArgoCD, Redis, AWS EKS, Helm.',
       link: 'https://github.com/Vaishnav88sk/TravelThreads-Wanderlust-project'
     },
     {
-      title: 'Flask App Deployment on AWS with Docker, Terraform and Kubernetes(EKS)',
-      description: 'Two-tier containerized flask application deployed on AWS EC2, EKS with automation. Used Docker and Kubernetes (AWS EKS and kubeadm) to containerize and orchestrate. Deployed with Dockerfile, Docker-Compose, AWS EKS, kubeadm with a scalable architecture and Setup the Infrastructure with Terraform for reproducible environment configuration.',
+      title: 'Flask App Deployment on AWS with Docker and Kubernetes(EKS)',
+      description: 'Two-tier containerized flask application deployed on AWS EC2, EKS with automation. Deployed with Dockerfile, Docker-Compose, AWS EKS, kubeadm with a scalable architecture.',
       link: 'https://github.com/Vaishnav88sk/two-tier-flask-app-deploy'
     },
     {
       title: 'Customer Complaint management ChatBot - AWS',
-      description: 'AWS Lex powered traditional chatbot with response cards and integrated with AWS lambda. A chatbot to handle electronic shop complaints, managing intents, slots, and utterances for smooth UI with assigning specific AWS IAM roles and Integrated Lambda functions to automatically register and store complaint details.',
+      description: 'AWS Lex powered traditional chatbot with response cards and integrated with AWS lambda.',
       link: 'https://github.com/Vaishnav88sk/product-complaint-chatbot'
     },
     {

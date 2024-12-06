@@ -31,9 +31,22 @@
     transition: opacity 0.5s ease-in-out;
     overflow: hidden;
     letter-spacing: .15em;
+    height: 1.5em; /* Set fixed height to match font-size */
+    line-height: 1.5em;
     /* animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite; */
     
   }
+  .hero-text h2::after {
+    content: ''; /* Add a pseudo-element for the cursor */
+    display: inline-block;
+    width: 2px; /* Width of the cursor */
+    height: 1.5em; /* Match the height to the text */
+    background-color: black; /* Cursor color */
+    position: absolute;
+    top: 0; /* Keep it aligned with the text */
+    right: 0; /* Position at the end of the text */
+    animation: blink 0.6s step-end infinite; /* Blinking effect */
+}
   

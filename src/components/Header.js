@@ -6,7 +6,7 @@ import useTypewriter from './useTypeWriter';
 
 function Header() {
   //const [dynamicText, setDynamicText] = useState('');
-  const texts = useMemo(()=>["AWS Solution Architect","Flutter Developer","Web Developer", "Learner"],[]) ;
+  const texts = useMemo(()=>["AWS Solution Architect Associate","Flutter Developer","Web Developer", "Learner"],[]) ;
 
   // useEffect(() => {
   //   let index = 0;
