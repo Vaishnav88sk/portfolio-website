@@ -4,7 +4,7 @@ import './Projects.css';
 function Projects() {
   const projectList = [
     {
-      title: 'TravelThreads -WanderLust MegaProject - DevOps',
+      title: 'TravelThreads - WanderLust MegaProject : DevOps',
       description: 'MERN travel blog app on AWS EKS with 10+ DevOps technologies. Technology Used: Terraform, Docker, Jenkins, SonarQube, OWASP, Trivy, ArgoCD, Redis, AWS EKS, Helm.',
       link: 'https://github.com/Vaishnav88sk/TravelThreads-Wanderlust-project'
     },
@@ -14,7 +14,7 @@ function Projects() {
       link: 'https://github.com/Vaishnav88sk/two-tier-flask-app-deploy'
     },
     {
-      title: 'Customer Complaint management ChatBot - AWS',
+      title: 'Customer Complaint management ChatBot - AWS Lex',
       description: 'AWS Lex powered traditional chatbot with response cards and integrated with AWS lambda.',
       link: 'https://github.com/Vaishnav88sk/product-complaint-chatbot'
     },
